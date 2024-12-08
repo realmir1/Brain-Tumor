@@ -6,6 +6,15 @@ This project uses a Convolutional Neural Network (CNN) implemented in TensorFlow
 
 
 
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Glioma.gif" alt="Resim 1" width="500"/>
+  
+</p>
+
+
+
+
 ## DATASET STRUCTURE
 
 The dataset is expected to follow a directory structure compatible with `ImageDataGenerator`:
@@ -59,7 +68,6 @@ The model consists of the following layers:
 7. **Flatten** layer to convert the 2D output into 1D.
 8. **Dense** layer with 128 neurons and ReLU activation.
 9. **Dense** layer with the number of output neurons equal to the number of classes (3) and softmax activation.
-
 
 
 ## RESULTS
